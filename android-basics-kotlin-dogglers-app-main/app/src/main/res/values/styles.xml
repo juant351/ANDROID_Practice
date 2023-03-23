@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // Style text for TextView asssociated to the Name of the dog
+    <style name="Widget.Dogglers.TextViewName" parent="Widget.MaterialComponents.TextView">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline6</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    // Style text for TextView associated to the Age and Hobbies of the dog
+    <style name="Widget.Dogglers.TextViewAgeAndHobbies" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">8dp</item>
+    </style>
+</resources>

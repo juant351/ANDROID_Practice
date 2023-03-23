@@ -1,0 +1,4 @@
+C:\Users\trjutv\AndroidStudioProjects\android-basics-kotlin-lunch-tray-app-main\app\src\androidTest\java\com\example\lunchtray\BaseTest.kt
+C:\Users\trjutv\AndroidStudioProjects\android-basics-kotlin-lunch-tray-app-main\app\src\androidTest\java\com\example\lunchtray\NavigationTests.kt
+C:\Users\trjutv\AndroidStudioProjects\android-basics-kotlin-lunch-tray-app-main\app\src\androidTest\java\com\example\lunchtray\OrderFunctionalityTests.kt
+C:\Users\trjutv\AndroidStudioProjects\android-basics-kotlin-lunch-tray-app-main\app\src\androidTest\java\com\example\lunchtray\MenuContentTests.kt
