@@ -13,7 +13,6 @@ abstract class ItemRoomDatabase : RoomDatabase(){
     companion object{
         @Volatile
         private var INSTANCE: ItemRoomDatabase? = null
-
         fun getDatabase(context: Context) : ItemRoomDatabase{
             return INSTANCE ?: synchronized(this){
                 val instance = Room.databaseBuilder(
@@ -23,6 +22,7 @@ abstract class ItemRoomDatabase : RoomDatabase(){
                 )
                     .fallbackToDestructiveMigration()
                     .build()
+                INSTANCE = instance
                 return instance
             }
         }
